@@ -9,10 +9,9 @@ public class MuonDAO {
     private DatabaseHelper dbHelper;
 
     public static final String TABLE_NAME="Muon";
-    public static final String SQL_MUON ="CREATE TABLE HoaDonChiTiet ( idMuon PRIMARY KEY, " +
-            "user text NOT NULL,ngayMuon date, ngayTra text,maSach text NOT NULL, soLuong INTEGER, trangThai boolean);";
-    public static final String TAG = "HoaDonChiTietDAO";
-    SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+    public static final String SQL_MUON ="CREATE TABLE Muon ( idMuon PRIMARY KEY, " +
+            "user text ,ngayMuon date, ngayTra text,maSach text , soLuong INTEGER, trangThai boolean);";
+    public static final String TAG = "MuonDAO";
     public MuonDAO(Context context){
         dbHelper = new DatabaseHelper(context);
         db = dbHelper.getWritableDatabase();
