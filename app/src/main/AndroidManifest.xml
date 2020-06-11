@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".BookDetailActivity"></activity>
+        <activity android:name=".BookBorrowingHistoryActivity"></activity>
+        <activity android:name=".ListBookActivity" />
+        <activity android:name=".MainScreen" />
         <activity android:name=".AddBookActivity" />
         <activity
             android:name=".SplashActivity"
