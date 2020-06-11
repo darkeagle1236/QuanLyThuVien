@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03DAC6"
+    android:orientation="vertical"
+    tools:context=".MainScreen">
+    <TextView
+        android:id="@+id/txtmenu"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENU"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FC0932"
+        android:textSize="40sp" />
+    <Button
+
+        android:background="@drawable/botron"
+        android:id="@+id/btnadd"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:text="Thêm sách"
+        android:textColor="#0AC3EF" />
+    <Button
+        android:background="@drawable/botron"
+        android:id="@+id/btnlist"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:text="List sách"
+        android:textColor="#0AC3EF" />
+    <Button
+        android:background="@drawable/botron"
+        android:id="@+id/btnhistory"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:textStyle="bold"
+        android:text="Lịch sử mượn sách"
+        android:textColor="#0AC3EF"
+        android:padding="10dp"/>
+</LinearLayout>
+
