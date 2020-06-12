@@ -1,9 +1,11 @@
 package com.pt14354.quanlythuvien.DAO;
 
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import com.pt14354.quanlythuvien.Database.DatabaseHelper;
+import com.pt14354.quanlythuvien.Model.NguoiDung;
 
 public class NguoiDungDAO {
     private SQLiteDatabase db;
