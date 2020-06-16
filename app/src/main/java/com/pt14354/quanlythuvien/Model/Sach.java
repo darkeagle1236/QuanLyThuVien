@@ -3,7 +3,7 @@ package com.pt14354.quanlythuvien.Model;
 public class Sach {
     private String idSach;
 
-    public Sach(String idSach) {
+    public Sach(String toString, String s, String idSach) {
         this.idSach = idSach;
     }
 
